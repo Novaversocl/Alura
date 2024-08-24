@@ -3,6 +3,8 @@ https://novaversocl.github.io/Alura/
 
 # Text Encryptor/Decryptor
 
+![imagen](https://github.com/user-attachments/assets/9f8c0c82-b123-49d8-8529-7c9b7b9db5c6)
+
 Este proyecto es una aplicación web para encriptar y desencriptar texto utilizando un conjunto específico de reglas de sustitución de caracteres. La aplicación valida que el texto ingresado esté en minúsculas y no contenga caracteres especiales o acentos.
 
 ## Requisitos
