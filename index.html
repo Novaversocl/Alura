@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Encryptor</title>
+  <script src="https://kit.fontawesome.com/33fc1bc4f1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <img src="./img/Logo.png" alt="Logo">
+  </header>
+  <div class="container">
+    <main>
+      <textarea class="input-area" onfocus="this.value=''">enter the text</textarea>
+      <div>
+        <p class="info-alert"><i class="fa-sharp fa-solid fa-circle-exclamation" style="color: #a5bcb6;"></i> Only lowercase letters and no accents</p>
+        <p class="warning-alert"><i class="fa-solid fa-triangle-exclamation" style="color: #3c413d;"></i> You must enter some text <i class="fa-solid fa-triangle-exclamation" style="color: #3c413d;"></i></p>
+      </div>
+      <button type="button" id="encrypt-btn">Encrypt</button>
+      <button type="button" id="decrypt-btn">Decrypt</button>
+    </main>
+    <aside>
+      <div class="message-container">
+        <img src="./img/foto.jpg" alt="Image">
+        <div>
+          <h2>No message found</h2>
+          <p>Enter the text you want to encrypt or decrypt.</p>
+        </div>
+      </div>
+   
+      <textarea class="output-area" readonly="readonly"></textarea>
+      <br>
+      <button type="button" id="copy-btn">Copy</button>
+    </aside>
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
